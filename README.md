@@ -1,1 +1,2 @@
-# chirality_nets
+# Chirality Net for Human Pose Regression
+Updates coming soon.
