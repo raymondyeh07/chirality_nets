@@ -38,7 +38,7 @@ We support chirality equivariant versions of the following layers:
 * [GRU](./pose_chiral/chiral_layers/chiral_gru.py)
 * [Batch Normalization](./pose_chiral/chiral_layers/chiral_batch_norm1d.py)
 
-To verify that these layers satisfies chirality equivariance, we have provided some test cases in the [test directory](./tests)
+To verify that these layers satisfy chirality equivariance, we have provided some test cases in the [test directory](./tests)
 
 #### Applications
 Coming soon.
