@@ -28,16 +28,16 @@ If you used this code for your experiments or found it helpful, please consider 
 * Pytorch 1.1.0
 
 ### Usage
-We recommend reading through our [short tutorial](./demo/equivariance_tutorial.html) on chirality equivariance. The tutorial illustrates the chirality definition and API for the chiral layers. The jupyter-notebook used to generate this tutorial.
+We recommend reading through our [short tutorial](./demo/equivariance_tutorial.ipynb) on chirality equivariance. The tutorial illustrates the chirality definition and API for the chiral layers.
 
 #### Layers
 We support chirality equivariant versions of the following layers:
-* Linear
-* Conv1D
-* LSTM
-* GRU
-* Batch Normalization
-To verify that these layers satisfies chirality equivariance, we have provided some test cases in ()
+* [Linear](./pose_chiral/chiral_layers/chiral_linear.py)
+* [Conv1D](./pose_chiral/chiral_layers/chiral_conv1d.py)
+* [LSTM](./pose_chiral/chiral_layers/chiral_lstm.py)
+* [GRU](./pose_chiral/chiral_layers/chiral_gru.py)
+* [Batch Normalization](./pose_chiral/chiral_layers/chiral_batch_norm1d.py)
+To verify that these layers satisfies chirality equivariance, we have provided some test cases in the [test directory](./tests)
 
 #### Applications
 Coming soon.
